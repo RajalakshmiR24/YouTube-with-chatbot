@@ -2,7 +2,7 @@ import { useForm } from '../../hooks/useForm';
 import { validateSignUp } from '../../utils/validation';
 import { AuthForm } from '../Auth/AuthForm';
 import { useNavigate, Link } from 'react-router-dom';
-import logo from '../../assets/images/logo.png'; 
+import logo from '../../assets/images/yt-logo.png'; 
 
 const SignUp = () => {
   const initialData = { name: '', email: '', password: '', phone: '' };
